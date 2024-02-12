@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html style="height: 100%; width: 100%; margin: 0; padding: 0;">
+    <head>
+        <title>TravelWithEase</title>
+    </head>
+    <body style="height: 100%; width: 100%; margin: 0; padding: 0;">
+        <nav style="background-color: skyblue; margin: 0; padding: 0;">
+            <p style="display:inline-block;">
+                <img src="./plane2.jpeg" height="100px" width="100px">
+                TravelWithEase
+            </p>
+            <a href="./travel_recommendation.html" id="home">Home</a>
+            <a href="./about.html" id="about">About Us</a>
+            <a href="./contact.html" id="contact">Contact Us</a>
+            <input type="text" placeholder="Enter a place to visit" id="search_input">
+            <button id="search_button" onclick="searchInput()">Search</button>
+            <button id="clear_button" onclick="clearInput()">Clear</button>
+        </nav>
+        <div style="background-image: url('background.jpeg'); height: 100%; width: 100%; background-size: 100% 100%; display: flex;">
+            <div style="width: 60%;">
+                <h1 style="color: white;">Travel With Ease</h2>
+                <p style="color: white; font-size: 50px;">Travel With Ease was designed to help people find destination
+                    spots to relax and explore new cultures to broaden their horizons.
+                    All of that can be achieved here! Just pick a place to visit!
+                </p>
+            </div>
+            <div id="search_results" style="color: white; width: 40%;">
+                <!-- Here will be search results -->
+            </div>
+        </div>
+    <script src="./travel_recommendation.js"></script>
+    </body>
+</html>
